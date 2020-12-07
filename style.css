@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background: #333;
+}
+
+main {
+  max-width: 500px;
+  margin: 100px auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+
+input {
+  display: block;
+  padding: 15px 10px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+  padding: 10px 15px;
+  border: none;
+  margin: 20px auto;
+}
+
+input, button {
+  border-radius: 5px;
+  border: none;
+}
+
+input, #outputs {
+  width: 95%;
+  margin: auto;
+}
+
+#outputs div {
+  padding: 20px 10px;
+  margin-bottom: 10px;
+}
+
+#outputs {
+  color: white;
+  margin-top: 20px;
+}
+
+.label {
+  font-size: 1.25rem;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.purple {
+  background-color: purple;
+}
